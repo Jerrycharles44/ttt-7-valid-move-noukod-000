@@ -6,6 +6,6 @@ def valid_move?(board, index)
   if (board[index]== "" && board[index]==nil)
     return true
   else
-    taken=false
+    return false
   end
 end
