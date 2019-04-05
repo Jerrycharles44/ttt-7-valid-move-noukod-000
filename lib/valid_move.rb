@@ -5,4 +5,5 @@
 def valid_move?(board, index)
   if (board[index]=="")
     taken=true
+  end
 end
